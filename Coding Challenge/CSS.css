@@ -1,0 +1,155 @@
+body /*Immagine di sfondo*/
+{
+    background-image: url("C:/Users/Perry/Desktop/NUOVO/Immagini/background.jpg");
+    background-attachment: fixed;
+    background-size: 100% 130%;   
+    margin: auto;
+}
+
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.rettangoloGrigio /*Rettangolo grigio in trasparenza*/
+{
+    display: inline-block;  
+    width: 950px;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-left: 20%; 
+    padding-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;   
+}
+
+.logo /*Logo e testo sottostante*/
+{
+    width: 200px;
+    display: inline-block;
+    margin-left: 35%;
+}
+
+.testoLogo
+{
+    font-family: Arial;
+    font-weight: 400;
+    line-height: 45px;
+    color: rgb(0, 220, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+.rettangoloVerde /*Rettangolo verde con i button all'interno*/
+{
+    display: inline-block;
+    width: 100% ;
+    height: 40px ;
+    background-color: rgb(0, 220, 0);
+}
+
+.tasti
+{
+    display: inline-block;
+    margin-left: 33%;
+    margin-top: 10px;
+}
+
+.container1 /*Qui ci sono i container con le modifiche sul padding per avere distanze come il campione*/
+{
+    padding-top: 2%;
+    margin: auto;
+}
+
+.container2
+{
+    padding-top: 2%;
+    margin: auto;
+}
+
+.container3
+{
+    padding-top: 2%;
+    margin: auto;
+}
+
+h1 /*Qui ci sono le modifiche dei font*/
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    color: white;
+}
+
+p
+{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    line-height: 22px;
+    color: white;
+}
+
+.primoSinistra /*Qui ci sono le lungezze tra i checkbox e la parola "Mnopattino"*/
+{
+    display: inline-block;
+    width: 2%;
+}
+
+.primoDestra
+{
+    display: inline-block;
+    width: 91%;
+}
+
+.secondoSinistra
+{
+    display: inline-block;
+    width: 2%;
+}
+
+.secondoDestra
+{
+    display: inline-block;
+    width: 91%;
+}
+
+.terzoSinistra
+{
+    display: inline-block;
+    width: 2%;
+}
+
+.terzoDestra
+{
+    display: inline-block;
+    width: 91%;
+}
+
+.caricaGino22 /*Qui ci sono le barre di carica dei monopattini*/
+{
+    width: 250px;
+    height: 25px;
+    background-color: rgb(190, 150, 50);
+    border-radius: 5px;
+}
+
+.caricaMike24
+{
+    width: 450px;
+    height: 25px;
+    background-color: rgb(50, 150, 50);
+    border-radius: 5px;
+}
+
+.caricaFede154
+{
+    width: 120px;
+    height: 25px;
+    background-color: rgb(150, 50, 50);
+    border-radius: 5px;
+}
